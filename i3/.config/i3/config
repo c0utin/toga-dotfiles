@@ -193,7 +193,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # touchpad configuration
-exec --no-startup-id xinput set-prop "DELL0B20:00 04F3:3146 Touchpad"  "libinput Tapping Enabled" 1'
+exec --no-startup-id xinput set-prop "DELL0B20:00 04F3:3146 Touchpad" "libinput Tapping Enabled" 1
 
 # Penger :)
 exec_always --no-startup-id feh --bg-scale ~/pictures/wallpapers/3dmaze.jpg
